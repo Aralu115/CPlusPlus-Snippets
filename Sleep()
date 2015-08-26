@@ -1,0 +1,25 @@
+/*
+  Sleep() is a function that causes the program to pause for a specified duration of time.
+  
+  Inside the parenthesis, you define the time to wait.  NOTE:  This value is in milliseconds  
+  (1000 = 1sec , 500 = 0.5sec , so on so forth)
+  
+  You will need to include a preprocessor directive, as shown below.
+*/
+
+
+PREPROCESSOR DIRECTIVE
+----------------------
+#include <windows.h>
+
+
+-=+=-
+
+
+CODE:
+
+Sleep(1000);  //change 1000 to any other number to change the amount ot time to pause.
+
+
+
+
